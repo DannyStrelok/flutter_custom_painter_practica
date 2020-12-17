@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_painter/src/challenges/cuadrado_animado_screen.dart';
 import 'package:flutter_custom_painter/src/screens/animaciones_screen.dart';
 import 'package:flutter_custom_painter/src/screens/headers_screen.dart';
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Diseños',
-      home: AnimacionesScreen()
+      home: CuadradoAnimadoScreen()
     );
   }
 }
